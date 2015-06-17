@@ -1,0 +1,1 @@
+var myDataRef = new Firebase('https://[YOUR-FB-SERVER].firebaseio.com');
