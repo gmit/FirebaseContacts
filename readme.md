@@ -9,6 +9,7 @@ no code required :-)
 3. edit credential.js and put your firebase server in there
 4. add to your code : <div id="fbContacts" data-user-prefix="[USER_PREFIX]" data-db-name="[DB_NAME]"> </div>
 5. add dependencis :
+```html
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -18,7 +19,7 @@ no code required :-)
 	<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
 	<script src="credential.js"></script>
 	<script src="fbContacts.js"></script>
-
+```html
 And have fun
 
 #License
