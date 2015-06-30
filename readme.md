@@ -7,7 +7,7 @@ no code required :-)
 1. Download fbContacts.js and credential.demo.js
 2. rename credential.demo.js to credential.js
 3. edit credential.js and put your firebase server in there
-4. add to your code : <div id="fbContacts" data-user-prefix="[USER_PREFIX]" data-db-name="[DB_NAME]"> </div>
+4. add to your code : ```html <div id="fbContacts" data-user-prefix="[USER_PREFIX]" data-db-name="[DB_NAME]"> </div>
 5. add dependencis :
 ```html
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -21,6 +21,9 @@ no code required :-)
 	<script src="fbContacts.js"></script>
 ```html
 And have fun
+#ToDo
+
+change to jquery extend not depand on div
 
 #License
 Firebase contacts is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
